@@ -2,14 +2,14 @@ section#skill{
     background-color: #eee;
     height: 100vh;
     box-sizing: border-box;
-    min-height: 600px;
+    min-height: 800px;
     color: black;
     padding-top: 100px;
   }
 section#skill .wrap{
     margin-bottom: 50px;
     display: flex;
-    height: 600px;
+    height: 700px;
     border-bottom: 1px solid;
     box-sizing: border-box;
   }
@@ -19,14 +19,15 @@ section#skill .wrap h2{
   }
 section#skill .wrap h2::after{
   content: "";
-  background-image: url(../img/eng3.png);
+  background-image: url(../img/eng4.png);
   display: block;
   width: 272px;
-  height: 408px;
+  height: 536px;
   transform: translateX(-15px);
   position: absolute;
   right: -12px;
   opacity: 50%;
+  background-size: contain;
 }
 section#skill .wrap h2 span{
   position: relative;
@@ -70,10 +71,10 @@ section#skill .wrap .left .bar{
 
 }
 section#skill .wrap .left .bar .skill{  
-  line-height: 2.5;
+  line-height: 3.5;
 }
 section#skill .wrap .left .bar:nth-child(1) .skill{  
-  margin-top: 22px;
+  margin-top: 5px;
 }
 section#skill .wrap .left .bar .outer{  
   height: 1.25em;
