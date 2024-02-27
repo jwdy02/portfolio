@@ -1,0 +1,108 @@
+section#skill{
+    background-color: #eee;
+    height: 100vh;
+    box-sizing: border-box;
+    min-height: 600px;
+    color: black;
+    padding-top: 100px;
+  }
+section#skill .wrap{
+    margin-bottom: 50px;
+    display: flex;
+    height: 600px;
+    border-bottom: 1px solid;
+    box-sizing: border-box;
+  }
+section#skill .wrap h2{
+  font-size: 100px;
+  position: relative;
+  }
+section#skill .wrap h2::after{
+  content: "";
+  background-image: url(../img/eng3.png);
+  display: block;
+  width: 272px;
+  height: 408px;
+  transform: translateX(-15px);
+  position: absolute;
+  right: -12px;
+  opacity: 50%;
+}
+section#skill .wrap h2 span{
+  position: relative;
+  animation: skilL 1.5s ease infinite;
+}
+@keyframes skilL{
+  0% { top: 0; } 
+  50% {top: 10px}
+  100% { top: 0 }
+}
+section#skill .wrap h2 span:nth-child(1){
+  animation-delay: 0.1s;
+}
+section#skill .wrap h2 span:nth-child(2){
+  animation-delay: 0.2s;
+}
+section#skill .wrap h2 span:nth-child(3){
+  animation-delay: 0.3s;
+}
+section#skill .wrap h2 span:nth-child(4){
+  animation-delay: 0.4s;
+}
+section#skill .wrap h2 span:nth-child(5){
+  animation-delay: 0.5s;
+}
+section#skill .wrap .left{
+  width: 60%;
+  position: relative;
+  margin: 50px auto;
+  position: relative;
+}
+section#skill .wrap .left::before{
+  content: "";
+  border-top: 1px solid;
+  display: block;
+  width: 716.6px;
+  position: absolute;
+  left: -44px;
+}
+section#skill .wrap .left .bar{
+
+}
+section#skill .wrap .left .bar .skill{  
+  line-height: 2.5;
+}
+section#skill .wrap .left .bar:nth-child(1) .skill{  
+  margin-top: 22px;
+}
+section#skill .wrap .left .bar .outer{  
+  height: 1.25em;
+  background: #EEEEEE;
+  position: relative;
+  border-radius: 0.3em;
+  background-color: #b1b1b1;
+}
+section#skill .wrap .left .bar .outer .inner{
+  height: 1.25em;
+  border-radius: 0.3em;
+  background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
