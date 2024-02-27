@@ -75,7 +75,7 @@ div#title div.wrap{ /* 하위선택자 */
   justify-content: center;
   align-items: center;
   color: black;
-  height: 50%;
+  height: 60%;
 }
 div#title div.wrap h2 {
   font-family: 'Playfair Display', serif;
@@ -131,7 +131,6 @@ div#title .eng ul {
 }
 div#title .eng ul li {  
   width: calc(100% / 5);
-
   font-size: 0;
   margin: 5px;
 }
@@ -139,7 +138,7 @@ div#title::after{
   content: "";
   display: block;
   width: 100%;
-  height: 50%;
+  height: 40%;
   background-image: url(../img/eng2.png);
   min-height: 700px;
   border-top: 3px solid #ccc;
