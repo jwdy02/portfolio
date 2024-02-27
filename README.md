@@ -55,13 +55,13 @@
 
 
 ## 스크린샷 또는 데모(포트폴리오 웹사이트의 스크린샷을 추가)
-![pf1-accuniq](https://github.com/jwdy02/portfolio/assets/150096227/95e247dd-a603-451f-8f32-92a569626f9a)
-![pf2-lpoint](https://github.com/jwdy02/portfolio/assets/150096227/459ac2c9-9935-4fa1-95be-dfb366a8d2e0)
-![pf3-hbpaper](https://github.com/jwdy02/portfolio/assets/150096227/27805aec-3544-466a-8560-4d0b3d9c4a1b)
-![pf3-hbpaper-re](https://github.com/jwdy02/portfolio/assets/150096227/92fd2aea-e3df-4eb6-b608-0648f882dd0c)
-![pf4-Hitejinro](https://github.com/jwdy02/portfolio/assets/150096227/0aad2994-d3ff-46f6-ae24-1b1cfeb59092)
-![final kitchen](https://github.com/jwdy02/portfolio/assets/150096227/a89391cc-e142-44a1-8ff7-47047d011dbf)
-![hanwha](https://github.com/jwdy02/portfolio/assets/150096227/5491eeee-e8ed-485e-ba8c-eb8c2ccfac6b)
+![pf1-accuniq](https://github.com/jwdy02/portfolio/assets/150096227/bc237bbb-8f37-4211-9976-e3d817462876)
+![pf2-lpoint](https://github.com/jwdy02/portfolio/assets/150096227/c68bf1cb-9062-4a3d-8cd7-32014bf4eec1)
+![pf3-hbpaper](https://github.com/jwdy02/portfolio/assets/150096227/f9b3972b-c6c1-4b7e-80fd-3eb5b357482f)
+![pf3-hbpaper-re](https://github.com/jwdy02/portfolio/assets/150096227/400cce85-86ba-4a73-bc8d-d5527f370885)
+![pf4-Hitejinro](https://github.com/jwdy02/portfolio/assets/150096227/6799939e-4b4b-4268-a1e7-62099b7a4a25)
+![final kitche](https://github.com/jwdy02/portfolio/assets/150096227/266d0aa2-2070-4445-9344-6f87576809ec)
+![hanwha](https://github.com/jwdy02/portfolio/assets/150096227/4594c893-a94e-4657-888d-18e6bd103108)
 
 
 
