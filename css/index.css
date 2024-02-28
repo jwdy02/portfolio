@@ -42,7 +42,7 @@ header h1 a{
 }
 header ul{
   display: flex;
-  gap: 79px;
+  gap: 65px;
   font-family: 'Inter', sans-serif;
   font-size: 15px;
   transform: translateX(-20%);
@@ -53,6 +53,10 @@ header ul li{
 header ul li a{
   text-transform: uppercase;
   color: black;
+  padding: 5px;
+}
+header ul li:hover a{  
+  font-weight: bold;
 }
 header .wrap>a{  
   font-size: 0;
