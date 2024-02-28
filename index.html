@@ -65,6 +65,8 @@
             $("header ul li:nth-child(1) a, aside ul li:nth-child(1)").click(
                 function(){
                     $("html,body").animate({scrollTop:$(window).height()},1500);
+                    $("aside ul li:nth-child(1)").addClass("side");
+                    $("aside ul li").not(":nth-child(1)").removeClass("side");
                     return false;
                 }
             );
@@ -72,6 +74,8 @@
             $("header ul li:nth-child(2) a, aside ul li:nth-child(2)").click(
                 function(){
                     $("html,body").animate({scrollTop:$(window).height()*2},1500);
+                    $("aside ul li:nth-child(2)").addClass("side");
+                    $("aside ul li").not(":nth-child(2)").removeClass("side");
                     return false; 
                 }
             );
@@ -79,6 +83,8 @@
             $("header ul li:nth-child(3) a, aside ul li:nth-child(3)").click(
                 function(){
                     $("html,body").animate({scrollTop:$(window).height()*3},1500);
+                    $("aside ul li:nth-child(3)").addClass("side");
+                    $("aside ul li").not(":nth-child(3)").removeClass("side");
                     return false;
                 }
             );
@@ -86,6 +92,8 @@
             $("header ul li:nth-child(4) a, aside ul li:nth-child(4)").click(
                 function(){
                     $("html,body").animate({scrollTop:$(window).height()*4},1500);
+                    $("aside ul li:nth-child(4)").addClass("side");
+                    $("aside ul li").not(":nth-child(4)").removeClass("side");
                     return false;
                 }
             );
