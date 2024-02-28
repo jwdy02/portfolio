@@ -4,12 +4,9 @@ section#skill{
     box-sizing: border-box;
     min-height: 800px;
     color: black;
-    padding-top: 100px;
   }
 section#skill .wrap{
-    margin-bottom: 50px;
     display: flex;
-    height: 700px;
     border-bottom: 1px solid;
     box-sizing: border-box;
   }
@@ -50,7 +47,7 @@ section#skill .wrap .left .bar .skill{
   line-height: 3.5;
 }
 section#skill .wrap .left .bar:nth-child(1) .skill{  
-  margin-top: 5px;
+  padding-top: 8px;
 }
 section#skill .wrap .left .bar .outer{  
   height: 1.25em;
