@@ -1,5 +1,5 @@
 section#portfolio{
-  background-color: #eee;
+  background-color: #fff;
   height: 100vh;
   box-sizing: border-box;
   display: flex;
@@ -10,14 +10,14 @@ section#portfolio{
 section#portfolio .wrap{   
   text-align: center;
   box-sizing: border-box;
-  border-bottom: 1px solid;
+  /*! border-bottom: 1px solid; */
   max-width: 1000px;
   padding: 0;
 }
 section#portfolio .wrap h2{
   padding-bottom: 15px;
   font-size: 100px;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid black;
   width: 100%;
 }
 section#portfolio .wrap .portAni{   
@@ -80,9 +80,11 @@ section#portfolio .wrap .portAni .port img {
   width: 450px;
 }
 
-section#portfolio .wrap .slick-prev::before, .slick-next::before{
-  
-}
 section#portfolio .wrap .slick-dots{  
   bottom: 30px;
 }
+section#portfolio .slick-dots li.slick-active button:before{
+    opacity: .75;
+    color: #F48181;
+}
+

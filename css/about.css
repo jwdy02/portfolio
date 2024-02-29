@@ -1,7 +1,6 @@
 section#about{
-  background-color: #eee;
-  height: 100vh;
-  min-height: 600px;
+  background-color: #f8f8f8;
+  min-height: 800px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -17,7 +16,7 @@ section#about .wrap h2{
   font-size: 100px;
   grid-column: 2;
   padding-bottom: 30px;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid black;
   grid-row: 1;
   text-align: center;
 }
@@ -47,8 +46,7 @@ section#about .wrap ul{
 section#about .wrap ul li{
   line-height: 4;
 }
-section#about .wrap ul li span{
-  
+section#about .wrap ul li span{  
   line-height: 4;
   font-weight: bold;
 }

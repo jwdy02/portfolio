@@ -35,20 +35,13 @@
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script>
         $(document).ready(function(){
-        // aside 클릭하면 css적용
-            $("aside ul li:nth-child(1)").addClass("side");
-            $("aside ul li").click(function(){
-                    $(this).addClass("side");
-                    $(this).siblings().removeClass("side");
-                }
-            );
-
-            //top버튼 클릭하면 스크롤 위로
+        //top버튼 클릭하면 스크롤 위로
             $("section#contact .top").click(function(){
                 $("html,body").animate({scrollTop:"0px"},1500);
                 return false;
             });
-
+        // aside 클래스지정
+            $("aside ul li:nth-child(1)").addClass("side");
         //스크롤이벤트
             $(window).scroll(function(){//창을 스크롤하면 실행
             //스크롤 내리면 헤더 위로 사라지기
@@ -132,37 +125,27 @@
         //어사이드 클릭시 페이지 이동
             //title어사이드
             $("aside ul li:nth-child(1)").click(function(){
-                    $("html,body").animate({scrollTop:"0px"},1000);
-                    $(this).addClass("side");
-                    $("aside ul li").not(":nth-child(1)").removeClass("side");
-                    return false;
-                });
+                $("html,body").animate({scrollTop:"0px"},1000);
+                return false;
+            });
             //about어사이드
             $("aside ul li:nth-child(2)").click(function(){
                 $("html,body").animate({scrollTop:$(window).height()},1000);
-                $(this).addClass("side");
-                $("aside ul li").not(":nth-child(2)").removeClass("side");
                 return false;
             });
             //skill 어사이드
             $("aside ul li:nth-child(3)").click(function(){
                 $("html,body").animate({scrollTop:$(window).height()*2},1000);
-                $(this).addClass("side");
-                $("aside ul li").not(":nth-child(3)").removeClass("side");
                 return false;
             });
             //portfolio 어사이드
             $("aside ul li:nth-child(4)").click(function(){
                 $("html,body").animate({scrollTop:$(window).height()*3},1000);
-                $(this).addClass("side");
-                $("aside ul li").not(":nth-child(4)").removeClass("side");
                 return false;
             });
             //contact 어사이드
             $("aside ul li:nth-child(5)").click(function(){
                 $("html,body").animate({scrollTop:$(window).height()*4},1000);
-                $(this).addClass("side");
-                $("aside ul li").not(":nth-child(5)").removeClass("side");
                 return false;
             });
         }
@@ -235,16 +218,16 @@
                 <h2 class="h2" data-aos="fade-left" data-aos-duration="1000">ABOUT</h2>
                 <img src="img/about.png" alt="내사진">
                 <ul class="list">
-                    <li><span>이름</span> : 최지수</li>
-                    <li><span>생년월일</span> : 1xxx0x1x</li>
-                    <li><span>거주지</span> : 경기도 성남시</li>
-                    <li><span>학력</span> : 신구대학교 원예디자인과 플로리스트전공</li>
-                    <li><span>교육</span> : 모란 이젠it아카데미 웹디자인,웹퍼블리셔 5개월 과정 수료</li>
+                    <li>이름 : <span>최지수</span></li>
+                    <li>생년월일 : <span>1xxx0x1x</span></li>
+                    <li>거주지 : <span>경기도 성남시</span></li>
+                    <li>학력 : <span>신구대학교 원예디자인과 플로리스트전공</span></li>
+                    <li>교육 : <span>모란 이젠it아카데미 웹디자인,웹퍼블리셔 5개월 과정 수료</span></li>
                 </ul>
             </div>
         </section>
         <!-- 스킬 --> 
-        <section id="skill" class="paddingT50 paddingB50">
+        <section id="skill" class="paddingT50 paddingB50 vh100">
             <div class="wrap">
                 <h2 class="h2" data-aos="fade-right" data-aos-duration="1000">SKILL</h2>
                 <div class="left">
@@ -309,8 +292,8 @@
         </section>
         <!-- 포트폴리오 -->
         <section id="portfolio" class="paddingT50 paddingB50 vh100">
-            <div class="wrap paddingT50  paddingB50 paddingL50 paddingR50" data-aos="flip-left" data-aos-duration="2000">
-                <h2 class="h2">PORTFOLIO</h2>
+            <div class="wrap paddingT50  paddingB50 paddingL50 paddingR50" >
+                <h2 class="h2" data-aos="fade-left" data-aos-duration="2000">PORTFOLIO</h2>
                 <div class=" portAni flex">
                     <div class="port port1">
                         <h3>Accuniq</h3>

@@ -11,9 +11,9 @@ section#contact .wrap{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid;
   height: 500px;
   box-sizing: border-box;
+  background-color: white;
 }
 section#contact .wrap::before{
   content: "";
@@ -21,7 +21,6 @@ section#contact .wrap::before{
 section#contact .wrap h2{
   padding-bottom: 20px;
   font-size: 100px;
-  /*! border-bottom: 1px solid; */
 }
 section#contact .wrap p{
   padding-top: 50px;
@@ -86,5 +85,5 @@ section#contact .top:before{
   background-size: contain;
 }
 section#contact .top:hover{  
-  background-color: #8997a9;
+  background-color: #F48181;
 }

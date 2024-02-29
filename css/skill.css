@@ -1,13 +1,10 @@
 section#skill{
     background-color: #eee;
-    height: 100vh;
     box-sizing: border-box;
     min-height: 800px;
-    color: black;
   }
 section#skill .wrap{
     display: flex;
-    border-bottom: 1px solid;
     box-sizing: border-box;
   }
 section#skill .wrap h2{
