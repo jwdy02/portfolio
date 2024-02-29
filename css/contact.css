@@ -15,9 +15,6 @@ section#contact .wrap{
   box-sizing: border-box;
   background-color: white;
 }
-section#contact .wrap::before{
-  content: "";
-}
 section#contact .wrap h2{
   padding-bottom: 20px;
   font-size: 100px;

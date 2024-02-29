@@ -1,26 +1,248 @@
 
 @media screen and (max-width:768px){
+  body{
+    overflow-x: hidden;
+  }
+/*  어사이드  */
+  aside{
+    display: none;
+  }
+  
 /* 헤더 */ 
   header .wrap{    
-    width: 360px;
     padding: 0 15px;
     box-sizing: border-box;
+    width: 100vw;
   }
   header ul{    
     display: none;
   }
+  header h1 a{    
+    font-size: 15px;
+  }
+  
 /*  타이틀  */
   div#title{
-  min-height: 300px;
-  height: 400px;
+  padding: 0 15px;
 }
   div#title::after{    
-    display: none;
+    /*! display: none; */
+    /*! padding: 0 30px; */
+    background-position-x: right;
+    height: 36%;
   }
   div#title div.wrap{    
-  width: 360px;
+    width: calc(100vw - 30px);
+    /*! height: 100%; */
+    padding: 0 15px;
   }
-  div#title div.wrap h2{    
+  div#title div.wrap h2{
     font-size: 40px;
   }
+  
+/*  어바웃  */
+  section#about{
+    
+  padding: 80px 0 0 0;
+  background-color: white;
+  }
+  section#about .wrap{
+    
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  height: 100%;
+  }
+  section#about .wrap h2{
+  font-size: 60px;
+  }
+  section#about .wrap img{   
+  padding: 30px 0;
+  width: calc(100vw - 150px);
+  margin: 0 auto;
+  }
+  section#about .wrap img:hover{
+    
+  filter: grayscale(0.9);
+  }
+  section#about .wrap ul{
+    padding: 0;
+    font-size: 12px;
+    text-align: left;
+    width: 210px;
+  }
+  section#about .wrap ul li{
+    
+  line-height: 2.5;
+  }
+  section#about .wrap ul li span{
+    
+  line-height: 2.5;
+  font-weight: initial;
+  }
+  
+/*  스킬  */
+  section#skill{
+    
+  padding: 80px 0 0 0;
+  }
+  section#skill .wrap{
+    
+  width: calc(100vw - 30px);
+  padding: 0 15px;
+  margin: 0;
+  box-sizing: initial;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  }
+  section#skill .wrap h2{
+    
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+  }
+  section#skill .wrap h2::after{
+    
+  display: none;
+  }
+  section#skill .wrap .left{
+    
+  margin: 0;
+  width: calc(100vw - 150px);
+  margin: 0 auto;
+  padding-top: 30px;
+  }
+  section#skill .wrap .left::before{
+    
+  display: none;
+  }
+  section#skill .wrap .left .bar .skill{
+    
+  line-height: 3;
+  font-size: 14px;
+  }
+  section#skill .wrap .left .bar:nth-child(1) .skill{
+    
+  padding: 0;
+  }
+  
+/*  포트폴리오  */
+  section#portfolio{
+    
+  padding: 80px 0 0 0;
+  }
+  section#portfolio .wrap{
+    
+  width: 100vw;
+  padding: 0 15px;
+  margin: 0;
+  height: 100%;
+  }
+  section#portfolio .wrap h2{
+    
+  font-size: 55px;
+  padding-bottom: 30px;
+  }
+  section#portfolio .wrap .portAni{
+    
+  padding: 30px 0 0 0;
+  }
+  section#portfolio .wrap .portAni .port{
+    
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto;
+  }
+  section#portfolio .wrap .portAni .port h3{
+    
+  grid-column: 1;
+  grid-row: 2;
+  font-size: 30px;
+  width: calc(100vw - 30px);
+  padding: 30px 0;
+  margin: 0;
+  }
+  section#portfolio .wrap .portAni .port ul{
+    
+  grid-column: 1;
+  grid-row: 3;
+  }
+  section#portfolio .wrap .portAni .port ul li{
+    
+  font-size: 15px;
+  }
+  section#portfolio .wrap .portAni .port a.button{
+    
+  grid-column: 1;
+  grid-row: 4;
+  width: calc(100vw - 150px);
+  margin-top: 20px;
+  height: 13vw;
+  }
+  section#portfolio .wrap .portAni .port img{
+    
+  grid-row: 1;
+  width: calc(100vw - 150px);
+  margin: 0 auto;
+  }
+  section#portfolio .wrap .slick-dots{
+    
+  bottom: -50px;
+  }
+  
+/*  컨택  */
+  section#contact{
+    
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  }
+  section#contact .wrap{
+    
+  width: calc(100vw - 30px);
+  height: ;
+  }
+  section#contact .wrap h2{
+    
+  font-size: 60px;
+  }
+  section#contact .wrap p{
+    
+  font-size: 15px;
+  line-height: 1.6;
+  padding-top: 20px;
+  }
+  section#contact .wrap ul{
+    
+  gap: 50px;
+  }
+  section#contact .wrap ul li::before{
+    
+  height: 50px !important;
+  }
+  section#contact .top{
+    
+  right: auto;
+  bottom: 50px;
+  width: 30px;
+  height: 30px;
+  }
+  section#contact .top::before{
+    
+  width: 30px;
+  height: 30px;
+  }
+/*  하단  */
+  footer .wrap{
+    
+  width: calc(100vw - 30px);
+  }
+  footer .wrap p{
+    
+  font-size: 10px;
+  }
+ 
 }
