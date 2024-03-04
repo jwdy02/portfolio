@@ -1,10 +1,6 @@
 section#portfolio{
   background-color: #fff;
-  height: 100vh;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   min-height: 800px;
 }
 section#portfolio .wrap{   
@@ -80,11 +76,12 @@ section#portfolio .wrap .portAni .port img {
   width: 450px;
 }
 
-section#portfolio .wrap .slick-dots{  
-  bottom: 30px;
-}
 section#portfolio .slick-dots li.slick-active button:before{
     opacity: .75;
     color: #F48181;
+}
+section#portfolio .slick-dotted.slick-slider{
+  
+  margin-bottom: 0;
 }
 

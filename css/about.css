@@ -2,9 +2,6 @@ section#about{
   background-color: #f8f8f8;
   min-height: 800px;
   box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 section#about .wrap{
   display: grid;
