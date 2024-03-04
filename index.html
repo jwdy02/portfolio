@@ -169,11 +169,20 @@
                     speed:2000, //다음 버튼 누르고 다음 화면 뜨는데까지 걸리는 시간
                     dots:true, //스크롤바 아래 동그라미 표시 여부
                     arrows:false, //옆으로 이동하는 화살표 표시 여부
-                    reponsive:[ //반응형 웹 구현 옵션
+                    responsive: [
                         {
-                            breakpoint: 768,//화면사이즈768px
-                            settings:{
-                                slidesToShow: 1
+                            breakpoint: 769,
+                            setting:{
+                            infinite: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            autoplay: true,
+                            autoplaySpeed: 2000,
+                            speed:1000,
+                            dots:true,
+                            arrows:false,
+                            centerMode: true,
+                            centerPadding: '20px',
                             }
                         }
                     ]
