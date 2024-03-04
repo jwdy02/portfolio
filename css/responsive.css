@@ -17,11 +17,12 @@
   .headerUP{   
     animation: none;
   }
-  header .wrap{    
+  header{
     padding: 0 15px;
     box-sizing: border-box;
-    width: 100vw;
-    background-color: red;
+  }
+  header .wrap{    
+    width: calc(100vw - 30px);
   }
   header ul{    
     display: none;

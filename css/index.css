@@ -3,10 +3,12 @@ header{   /* 너비지정 */
   margin: 0 auto; /* 중앙정렬 */
   height: 60px;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   top: 0;
   background-color: #eee;
   z-index: 1;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 .headerUP{
   position: fixed;
