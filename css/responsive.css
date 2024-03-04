@@ -17,9 +17,6 @@
     transition-property: initial !important;
   }
 /* 헤더 */ 
-  .headerUP{   
-    animation: none;
-  }
   header{
     padding: 0 15px;
     box-sizing: border-box;
