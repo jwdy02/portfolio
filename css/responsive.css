@@ -3,11 +3,16 @@
   body{
     overflow-x: hidden;
   }
+  
 /*  어사이드  */
   aside{
     display: none;
   }
-  
+/*  섹션타이틀aos  */
+  [data-aos^="fade"][data-aos^="fade"].aos-animate{    
+    opacity: 1 !important;
+    transform: translateZ(0) !important;
+  }
 /* 헤더 */ 
   .headerUP{   
     animation: none;
