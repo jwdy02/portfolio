@@ -9,9 +9,12 @@
     display: none;
   }
 /*  섹션타이틀aos  */
-  [data-aos^="fade"][data-aos^="fade"].aos-animate{    
-    opacity: 1 !important;
-    transform: translateZ(0) !important;
+  .aos-animate, .aos-init{    
+    transform: none !important;
+    opacity: initial !important;
+    transition-duration: initial !important;
+    transition-timing-function: initial !important;
+    transition-property: initial !important;
   }
 /* 헤더 */ 
   .headerUP{   
@@ -69,9 +72,6 @@
     width: calc(100vw - 150px);
     margin: 0 auto;
   }
-  section#about .wrap img:hover{    
-    filter: grayscale(0.9);
-  }
   section#about .wrap ul{
     padding: 0;
     font-size: 12px;
@@ -88,7 +88,6 @@
   
 /*  스킬  */
   section#skill{    
-    padding: 80px 0 0 0;
   }
   section#skill .wrap{    
     width: calc(100vw - 30px);
@@ -112,7 +111,6 @@
     margin: 0;
     width: calc(100vw - 150px);
     margin: 0 auto;
-    padding-top: 30px;
   }
   section#skill .wrap .left::before{    
     display: none;

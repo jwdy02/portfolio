@@ -1,11 +1,10 @@
 section#skill{
     background-color: #eee;
-    box-sizing: border-box;
     min-height: 800px;
+    box-sizing: border-box;
   }
 section#skill .wrap{
     display: flex;
-    box-sizing: border-box;
   }
 section#skill .wrap h2{
   font-size: 100px;
@@ -16,7 +15,7 @@ section#skill .wrap h2::after{
   background-image: url(../img/eng4.png);
   display: block;
   width: 272px;
-  height: 536px;
+  height: 600PX;
   transform: translateX(-15px);
   position: absolute;
   right: -12px;
@@ -41,10 +40,7 @@ section#skill .wrap .left .bar{
 
 }
 section#skill .wrap .left .bar .skill{  
-  line-height: 3.5;
-}
-section#skill .wrap .left .bar:nth-child(1) .skill{  
-  padding-top: 8px;
+  line-height: 3;
 }
 section#skill .wrap .left .bar .outer{  
   height: 1.25em;

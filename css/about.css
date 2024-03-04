@@ -31,9 +31,6 @@ section#about .wrap img {
   filter: grayscale(0.9);
   cursor: pointer;
 }
-section#about .wrap img:hover{  
-  filter: none;
-}
 section#about .wrap ul{
   grid-column: 2;
   grid-row: 3;
