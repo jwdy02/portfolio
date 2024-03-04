@@ -36,10 +36,8 @@
     padding: 0 15px;
 }
   div#title::after{    
-    /*! display: none; */
-    /*! padding: 0 30px; */
     background-position-x: right;
-    height: 36%;
+    height: 39%;
   }
   div#title div.wrap{    
     width: calc(100vw - 30px);
@@ -114,10 +112,10 @@
   }
   section#skill .wrap .left .bar .skill{    
     line-height: 3;
-    font-size: 14px;
+    font-size: 13px;
   }
   section#skill .wrap .left .bar:nth-child(1) .skill{    
-    padding: 0;
+    padding-top: 10px;
   }
   
 /*  포트폴리오  */
