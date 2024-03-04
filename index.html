@@ -168,7 +168,15 @@
                     autoplaySpeed: 3000,//자동 스크롤시 다음으로 넘어가는데 걸리는 시간
                     speed:2000, //다음 버튼 누르고 다음 화면 뜨는데까지 걸리는 시간
                     dots:true, //스크롤바 아래 동그라미 표시 여부
-                    arrows:false //옆으로 이동하는 화살표 표시 여부
+                    arrows:false, //옆으로 이동하는 화살표 표시 여부
+                    reponsive:[ //반응형 웹 구현 옵션
+                        {
+                            breakpoint: 768,//화면사이즈768px
+                            settings:{
+                                slidesToShow: 1
+                            }
+                        }
+                    ]
                     }
                 );
             }
