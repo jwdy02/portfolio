@@ -151,6 +151,54 @@
         }
     )
     </script>
+<!-- 마우스휠 -->
+    <script type="text/javascript">
+        window.onload = function () {
+            var elm = ".box";
+            $(elm).each(function (index) {
+                // 개별적으로 Wheel 이벤트 적용
+                $(this).on("mousewheel DOMMouseScroll", function (e) {
+                    e.preventDefault();
+                    var delta = 0;
+                    if (!event) event = window.event;
+                    if (event.wheelDelta) {
+                        delta = event.wheelDelta / 120;
+                        if (window.opera) delta = -delta;
+                    } 
+                    else if (event.detail)
+                        delta = -event.detail / 3;
+                    var moveTop = $(window).scrollTop();
+                    var elmSelecter = $(elm).eq(index);
+                    // 마우스휠을 위에서 아래로
+                    if (delta < 0) {
+                        if ($(elmSelecter).next() != undefined) {
+                            try{
+                                moveTop = $(elmSelecter).next().offset().top;
+                            }catch(e){}
+                        }
+                    // 마우스휠을 아래에서 위로
+                    } else {
+                        if ($(elmSelecter).prev() != undefined) {
+                            try{
+                                moveTop = $(elmSelecter).prev().offset().top;
+                            }catch(e){}
+                        }
+                    }
+                    
+                    // 화면 이동 0.8초(800)
+                    $("html,body").stop().animate({
+                        scrollTop: moveTop + 'px'
+                    }, {
+                        duration: 800, complete: function () {
+                        }
+                    });
+                });
+            });
+            
+            $("main>section").unwrap();
+            $("section").css("height","100%");
+        }
+    </script>
 
 <!-- 슬릭 -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
@@ -207,7 +255,7 @@
 
 <body>
 <!-- 상단영역 -->
-    <header>
+    <header class="box">
         <div class="wrap">
             <h1><a href="#">JISU's PORTFOLIO</a></h1>
             <ul>
@@ -220,7 +268,7 @@
         </div>
     </header>
 <!-- 타이틀영역 -->
-    <div id="title">
+    <div id="title" class="box">
         <div class="wrap">
             <h2 class="h2">
                 <span>P</span><span>O</span><span>R</span><span>T</span><span>F</span><span>O</span><span>L</span><span>I</span><span>O</span>
@@ -230,7 +278,7 @@
 <!-- 메인영역 -->
     <main>
     <!-- 어바웃 -->
-        <section id="about" class="flex column center paddingT50 paddingB50 vh100">
+        <section id="about" class="flex column center paddingT50 paddingB50 vh100 box">
             <div class="wrap">
                 <h2 class="h2" data-aos="fade-left" data-aos-duration="1000">ABOUT</h2>
                 <img src="img/about.png" alt="내사진">
@@ -244,7 +292,7 @@
             </div>
         </section>
      <!-- 스킬 --> 
-        <section id="skill" class="flex column center paddingT50 paddingB50 vh100">
+        <section id="skill" class="flex column center paddingT50 paddingB50 vh100 box">
             <div class="wrap">
                 <h2 class="h2" data-aos="fade-right" data-aos-duration="1000">SKILL</h2>
                 <div class="left">
@@ -320,7 +368,7 @@
                     <li>젠코딩</li> -->
         </section>
     <!-- 포트폴리오 -->
-        <section id="portfolio" class="flex column center paddingT50 paddingB50 vh100">
+        <section id="portfolio" class="flex column center paddingT50 paddingB50 vh100 box">
             <div class="wrap paddingT50  paddingB50 paddingL50 paddingR50" >
                 <h2 class="h2" data-aos="fade-left" data-aos-duration="2000">PORTFOLIO</h2>
                 <div class=" portAni flex">
@@ -424,7 +472,7 @@
             </div>
         </section>
     <!-- 컨택 -->
-        <section id="contact" class="flex column center paddingT50 paddingB50 vh100">
+        <section id="contact" class="flex column center paddingT50 paddingB50 vh100 box">
             <div class="wrap paddingT50  paddingB50" data-aos="flip-right" data-aos-duration="2000">
                 <h2 class="h2">CONTACT</h2>
                 <p class="p">끝까지 봐주셔서 감사합니다 아직 부족 하지만 더욱 성장하는 모습을 보여드리겠습니다</p>
@@ -447,7 +495,7 @@
         </ul>
     </aside>
     <!-- 하단영역 -->
-    <footer>
+    <footer class="box">
         <div class="wrap">
             <p>본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.</p>
         </div>
