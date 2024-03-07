@@ -1,5 +1,4 @@
 section#skill{
-    background-color: #eee;
     min-height: 800px;
     box-sizing: border-box;
   }
@@ -24,13 +23,12 @@ section#skill .wrap h2::after{
 }
 section#skill .wrap .left{
   width: 60%;
-  position: relative;
   margin: 50px auto;
   position: relative;
 }
 section#skill .wrap .left::before{
   content: "";
-  border-top: 1px solid;
+  border-top: 1px solid #c1c1c1;
   display: block;
   width: 716.6px;
   position: absolute;

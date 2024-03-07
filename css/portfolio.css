@@ -6,14 +6,14 @@ section#portfolio{
 section#portfolio .wrap{   
   text-align: center;
   box-sizing: border-box;
-  /*! border-bottom: 1px solid; */
   max-width: 1000px;
   padding: 0;
+  height: 100%;
 }
 section#portfolio .wrap h2{
-  padding-bottom: 15px;
+  padding-bottom: 50px;
   font-size: 100px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #c1c1c1;
   width: 100%;
 }
 section#portfolio .wrap .portAni{   
@@ -29,9 +29,10 @@ section#portfolio .wrap .portAni .port h3 {
 
   grid-column: 2;
   grid-row: 1;
-  font-size: 50px;
-  margin-bottom: 20px;
+  font-size: 40px;
   font-weight: bold;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 section#portfolio .wrap .portAni .port ul {   
   grid-column: 2;
@@ -44,44 +45,48 @@ section#portfolio .wrap .portAni .port ul li {
   font-size: 18px;
   text-align: left;
   line-height: 2.5;
+  color: #333;
 }
 section#portfolio .wrap .portAni .port ul li span {   
   font-weight: bold;
   margin-right: 17px;
   line-height: 2.5;
+  color: #666;
 }
 section#portfolio .wrap .portAni .port ul li span.under{
-    margin-left: 67px;
+  margin-left: 67px;
   font-weight: initial;
+  color: #333;
 }
 section#portfolio .wrap .portAni .port a.button {   
   grid-column: 2;
   grid-row: 3;
   background-color: black;
-  width: 300px;
-  height: 50px;
-  border-radius: 30px;
+  width: 150px;
+  height: 30px;
+  border-radius: 35px;
   justify-self: center;
-  font-size: 18px;
   font-weight: bold;
   cursor: pointer;
-  line-height: 2.5;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-top: 10px;
 }
-ection#portfolio .wrap .portAni .port a.button:hover{  
-  background-color: #8997a9;
+section#portfolio .wrap .portAni .port a.button:hover{  
+  background-color: #EB5C57;
 }
 section#portfolio .wrap .portAni .port img {   
   grid-column: 1;
   grid-row: 1 /span 3;
   width: 450px;
+  margin: 0 auto;
 }
-
 section#portfolio .slick-dots li.slick-active button:before{
-    opacity: .75;
-    color: #F48181;
+  opacity: .75;
+  color: #F48181;
 }
 section#portfolio .slick-dotted.slick-slider{
-  
   margin-bottom: 0;
 }
+section#portfolio .slick-dots
 

@@ -1,5 +1,5 @@
 section#about{
-  background-color: #f8f8f8;
+  background-color: white;
   min-height: 800px;
   box-sizing: border-box;
 }
@@ -13,7 +13,7 @@ section#about .wrap h2{
   font-size: 100px;
   grid-column: 2;
   padding-bottom: 30px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #c1c1c1;
   grid-row: 1;
   text-align: center;
 }
@@ -39,8 +39,10 @@ section#about .wrap ul{
 }
 section#about .wrap ul li{
   line-height: 4;
+  font-weight: bold;
+  color: #666;
 }
 section#about .wrap ul li span{  
   line-height: 4;
-  font-weight: bold;
+  color: black;
 }
