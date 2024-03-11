@@ -45,7 +45,6 @@ section#portfolio .wrap .portAni .port ul li {
   font-size: 18px;
   text-align: left;
   line-height: 2.5;
-  color: #333;
 }
 section#portfolio .wrap .portAni .port ul li span {   
   font-weight: bold;
@@ -56,7 +55,7 @@ section#portfolio .wrap .portAni .port ul li span {
 section#portfolio .wrap .portAni .port ul li span.under{
   margin-left: 67px;
   font-weight: initial;
-  color: #333;
+  color: black;
 }
 section#portfolio .wrap .portAni .port a.button {   
   grid-column: 2;
