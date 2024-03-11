@@ -20,9 +20,17 @@ section#about .wrap h2{
 section#about .wrap p {  
   grid-column: 2;
   grid-row: 2;
-  margin: 0 auto;
-  padding: 30px 0 20px;
-  color: #999;
+  margin: 30px 40px;
+  color: black;
+  line-height: 1.6;
+  text-align: center;
+  background-color: #EEE;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+section#about .wrap p span{
+  
 }
 section#about .wrap img {
   width: 400px;
@@ -34,15 +42,18 @@ section#about .wrap img {
 section#about .wrap ul{
   grid-column: 2;
   grid-row: 3;
-  padding-left: 100px;
-  margin: 0 auto;
+  margin: 0 40px;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 10px;
 }
 section#about .wrap ul li{
-  line-height: 4;
+  line-height: 2.5;
   font-weight: bold;
   color: #666;
 }
 section#about .wrap ul li span{  
-  line-height: 4;
+  line-height: 2.5;
   color: black;
+  font-weight: 500;
 }
