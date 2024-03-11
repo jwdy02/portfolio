@@ -59,6 +59,7 @@ header ul li a{
 }
 header ul li:hover a{  
   color: #EB5C57;
+  font-weight: bold;
 }
 header .wrap>a{  
   font-size: 0;
