@@ -7,8 +7,10 @@ footer .wrap {
   justify-content: center;
   align-items: center;
   height: 100%;
+  flex-direction: column;
 }
 footer .wrap p {   
   color: white;
   font-size: 14px;
+  line-height: 1.6;
 }
