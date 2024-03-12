@@ -55,7 +55,6 @@ header ul li a{
   text-transform: uppercase;
   padding: 10px;
   color: black;
-  font-weight: 600;
 }
 header ul li:hover a{  
   color: #EB5C57;
