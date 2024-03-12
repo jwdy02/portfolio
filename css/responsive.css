@@ -37,7 +37,7 @@
 }
   div#title::after{    
     background-position-x: right;
-    height: 39%;
+    height: 28%;
   }
   div#title div.wrap{    
     width: calc(100vw - 30px);
@@ -180,7 +180,6 @@
   }
   section#contact .wrap{    
     width: calc(100vw - 30px);
-    height: ;
   }
   section#contact .wrap h2{    
    font-size: 60px;
