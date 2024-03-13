@@ -82,7 +82,7 @@ section#portfolio .wrap .portAni .port img {
 }
 section#portfolio .slick-dots li.slick-active button:before{
   opacity: .75;
-  color: #F48181;
+  color: #EB5C57;
 }
 section#portfolio .slick-dotted.slick-slider{
   margin-bottom: 0;
