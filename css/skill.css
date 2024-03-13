@@ -50,7 +50,7 @@ section#skill .wrap .left ul li{
   border-radius: 10px;
 }
 section#skill .wrap .left ul li h3{  
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   font-weight: bold;
   color: #EB5C57;
 }
@@ -58,8 +58,12 @@ section#skill .wrap .left ul li img{
   width: 30px;
 }
 section#skill .wrap .left ul li p{  
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   line-height: 2;
+}
+section#skill .wrap .left ul li  span{  
+  line-height: 2;
+  font-weight: bold;
 }
 
 
