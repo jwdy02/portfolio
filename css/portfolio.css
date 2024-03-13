@@ -93,7 +93,7 @@ section#portfolio .wrap .portAni .port a.button {
   margin-top: 10px;
 }
 section#portfolio .wrap .portAni .port a.button:hover{  
-  background-color: #50A1DC;
+  background-color: #EB5C57;
 }
 section#portfolio .wrap .portAni .port img {   
   grid-column: 1;

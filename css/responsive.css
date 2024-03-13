@@ -62,16 +62,24 @@
   section#about .wrap h2{
     font-size: 60px;
   }
+  section#about .wrap p{
+    
+  width: calc(100vw - 100px);
+  font-size: 13px;
+  height: 75vw;
+  padding: 20px;
+  margin: 30px auto;
+  }
   section#about .wrap img{   
     padding: 30px 0;
     width: calc(100vw - 150px);
     margin: 0 auto;
+    display: none;
   }
   section#about .wrap ul{
-    padding: 0;
     font-size: 12px;
     text-align: left;
-    width: 210px;
+    width: calc(100vw - 60px);
   }
   section#about .wrap ul li{    
     line-height: 2.5;

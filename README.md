@@ -51,8 +51,6 @@
 - hitejinro 벤치마킹 https://jwdy02.github.io/pf4-Hitejinro/
 - final kitchen 벤치마킹 https://jwdy02.github.io/final-kitchen/
 - hanwha 벤치마킹 https://jwdy02.github.io/hanwha/
-- beanpole 벤치마킹 https://jwdy02.github.io/beanpole/
-- SM-Entertainment 벤치마킹 https://jwdy02.github.io/SM-Entertainment/
 
 
 
@@ -64,9 +62,6 @@
 ![pf4-Hitejinro](https://github.com/jwdy02/portfolio/assets/150096227/6799939e-4b4b-4268-a1e7-62099b7a4a25)
 ![final kitche](https://github.com/jwdy02/portfolio/assets/150096227/266d0aa2-2070-4445-9344-6f87576809ec)
 ![hanwha](https://github.com/jwdy02/portfolio/assets/150096227/4594c893-a94e-4657-888d-18e6bd103108)
-![beanpole](https://github.com/jwdy02/portfolio/assets/150096227/ae40f047-6497-4f74-9796-7b306a4d83e2)
-![image](https://github.com/jwdy02/portfolio/assets/150096227/ca22d6b8-7e8d-433c-aedc-292b72b49a88)
-
 
 
 
