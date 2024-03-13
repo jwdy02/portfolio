@@ -6,30 +6,30 @@ section#about{
 section#about .wrap{
   display: grid;
   grid-template-columns:  auto 1fr;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: auto auto auto;
   width: 1000px;
 }
 section#about .wrap h2{
-  font-size: 100px;
+  font-size: 87px;
   grid-column: 2;
   grid-row: 1;  
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   border-bottom: 1px solid #c1c1c1;
 
   text-align: center;
 }
 section#about .wrap p {  
 grid-column: 2;
-  grid-row: 2 / span 2;
-  line-height: 2.5;
+  grid-row: 2;
+  line-height: 1.6;
   background-color: #EEE;
-  padding: 30px;
+  padding: 20px 45px;
   border-radius: 10px;
 letter-spacing: 1.1px;
-margin: 30px auto;
+margin: 30px auto 20px;
 }
 section#about .wrap p span{  
-  line-height: 2.5;
+  line-height: 1.6;
   font-weight: bold;
 }
 section#about .wrap img {
@@ -40,15 +40,16 @@ section#about .wrap img {
 section#about .wrap ul{
   grid-column: 2;
   grid-row: 3;
-  margin: 0 55px;
-  padding: 15px;
+  margin: 0 auto;
+  padding: 20px;
   background-color: #eee;
   border-radius: 10px;
+  box-sizing: border-box;
 }
 section#about .wrap ul li{
   line-height: 2.5;
   font-weight: bold;
-  color: #666;
+  color: #545454;
 }
 section#about .wrap ul li span{  
   line-height: 2.5;
