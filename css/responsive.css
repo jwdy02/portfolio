@@ -57,7 +57,7 @@
     flex-direction: column;
   }
   section#about .wrap h2{
-    font-size: 60px;
+    font-size: 64px;
     padding-bottom: 30px;
     border-bottom: 1px solid #c1c1c1;
   }
@@ -234,12 +234,13 @@
     width: 30px;
     height: 30px;
   }
-  section#portfolio .slick-next{
-    display: none;
-  }
-  section#portfolio .slick-prev{
-    display: none;
-  }
+section#portfolio .slick-next{
+  display: none !important;
+}
+section#portfolio .slick-prev{
+  display: none !important;
+}
+  
 /*  하단  */
   footer .wrap{    
     width: calc(100vw - 30px);
