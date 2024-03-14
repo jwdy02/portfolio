@@ -39,7 +39,7 @@ aside ul li a::before{
   border-radius: 50%;
 }
 .side a{
-  background-color: red;
+  background-color: #EB5C57;
   transform: scale(1.3);
   transform-origin: 50% 50%;
 }

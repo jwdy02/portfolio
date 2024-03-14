@@ -97,6 +97,7 @@
     display: flex;
     flex-direction: column;
 
+    height: calc(100vh - 50px);
   }
   section#skill .wrap h2{    
     font-size: 60px;
@@ -117,6 +118,7 @@
   section#skill .wrap .left ul{
     
   padding: 0;
+  gap: 20px;
   }
   section#skill .wrap .left ul li{    
   width: calc(100vw - 30px);
@@ -126,9 +128,13 @@
   margin-bottom: 10px;
   font-size: calc(25px * 0.7);
   }
+  section#skill .wrap .left ul li p{
+    
+  }
   section#skill .wrap .left ul li img{
     
-  display: none;
+  /*! display: none; */
+  width: 18px;
   }
 /*  포트폴리오  */
   section#portfolio{    
@@ -228,6 +234,12 @@
     width: 30px;
     height: 30px;
   }
+  section#portfolio .slick-next{
+    display: none;
+  }
+  section#portfolio .slick-prev{
+    display: none;
+  }
 /*  하단  */
   footer .wrap{    
     width: calc(100vw - 30px);
@@ -235,5 +247,6 @@
   footer .wrap p{    
     font-size: 10px;
   }
- 
+
+
 }
