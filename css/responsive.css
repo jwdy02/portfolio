@@ -63,10 +63,9 @@
   }
   section#about .wrap p{    
   padding: 20px;
-  margin: 30px auto;
+  margin: 30px 0;
   width: calc(100vw -30px);
   font-size: calc(100% * 0.7);
-  height: 42vw;
   line-height: 2;
   }
   section#about .wrap p span{
@@ -78,7 +77,6 @@
   }
   section#about .wrap ul{
   width: calc(100vw - 30px);
-  height: 42vw;
   font-size: calc(100% * 0.7);
   }
   section#about .wrap ul li{    
@@ -122,7 +120,6 @@
   }
   section#skill .wrap .left ul li{    
   width: calc(100vw - 30px);
-  height: 42vw;
   font-size: calc(100% * 0.7);
   }
   section#skill .wrap .left ul li h3{    
@@ -201,7 +198,6 @@
   }
   section#contact .wrap{    
     width: calc(100vw - 30px);
-    height: 150vw;
   }
   section#contact .wrap h2{    
    font-size: 60px;
