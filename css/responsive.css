@@ -90,14 +90,14 @@
 /*  스킬  */
   section#skill{    
   padding: 50px 15px;
-  min-height: initial;
+  min-height: 900px;
   }
   section#skill .wrap{    
     width: calc(100vw - 30px);
     display: flex;
     flex-direction: column;
 
-    height: calc(100vh - 50px);
+    height: 100%;
   }
   section#skill .wrap h2{    
     font-size: 60px;
@@ -110,7 +110,7 @@
   }
   section#skill .wrap .left{    
   width: calc(100vw - 30px);
-  height: 100vh;
+  margin: 50px 0 0;
   }
   section#skill .wrap .left::before{    
     display: none;
@@ -118,7 +118,6 @@
   section#skill .wrap .left ul{
     
   padding: 0;
-  gap: 20px;
   }
   section#skill .wrap .left ul li{    
   width: calc(100vw - 30px);
@@ -133,8 +132,6 @@
   }
   section#skill .wrap .left ul li img{
     
-  /*! display: none; */
-  width: 18px;
   }
 /*  포트폴리오  */
   section#portfolio{    
