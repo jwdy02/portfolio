@@ -1,7 +1,8 @@
-@media screen and (max-width:768px){
+@media screen and (max-width:1024px){
   body{
     overflow-x: hidden;
   }
+  
   
 /*  어사이드  */
   aside{
@@ -24,12 +25,38 @@
     width: calc(100vw - 30px);
   }
   header ul{    
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    right: -100%;
+    top: 0;
+    z-index: 0;
+    background-color: #d5d5d5;
+    transition: 1s ease-out;
+  }
+  .gnbShow{
+     right: 0 !important;
+  }
+  header ul li a{
+    font-size: 30px;
   }
   header h1 a{    
     font-size: 15px;
   }
-  
+/*  ham  */
+  .ham{
+    display: flex !important;
+    grid-column: 1;
+    grid-row: 1;
+    position: relative;
+  }
+  .ham.close{
+    background-image: url(../img/close.svg);
+  }
 /*  타이틀  */
   div#title{
   padding: 0 15px;

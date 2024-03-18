@@ -121,7 +121,7 @@ section#portfolio .slick-prev{
 }
 section#portfolio .slick-prev::before,
 section#portfolio .slick-next::before{  
-  color: #EB5C57;
+  color: #ccc;
   width: 100%;
   font-size: 50px;
   opacity: 1;

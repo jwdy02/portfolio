@@ -248,7 +248,25 @@
             AOS.init();
         });
     </script>
-
+    <script>
+        $(document).ready(function(){
+            //햄버거버튼 클릭하면 실행하시오
+            $("a.ham").click(function(){
+                //w대메뉴에 클래스를 붙이시오(wgnbSohw)
+                $("header .wrap ul").toggleClass("gnbShow")
+                //close를 지우기
+                $(".ham").toggleClass("close");
+                //x표시용으로 쓸 태그를 추가하시오
+                $(".gnbShow li").click(function(){
+                    $("header .wrap ul").removeClass("gnbShow")
+                    $(".ham").removeClass("close");
+                    return false;
+                });
+                return false;
+            });
+            
+        });
+    </script>
 
 </head>
 
@@ -265,7 +283,7 @@
                 <li><a href="">portfolio</a></li>
                 <li><a href="">contact</a></li>
             </ul>
-            <a href="#">메뉴보기</a>
+            <a href="" class="ham hide">전체메뉴</a>
         </div>
     </header>
 <!-- 타이틀영역 -->
@@ -351,7 +369,7 @@
                         <img src="img/portfolio/final_kitchen.png" alt="final_kitchen홈페이지">
                     </div>
                     <div class="port port2">
-                        <h3>hanwha</h3>
+                        <h3>Hanwha</h3>
                         <ul class="list">
                             <li><span>TYPE</span>웹사이트 (기업체 홈페이지)</li>
                             <li><span>PAGE</span>index</li>
@@ -363,7 +381,7 @@
                         <img src="img/portfolio/hanwha.png" alt="hanwha홈페이지">
                     </div>
                     <div class="port port3">
-                        <h3>beanpole</h3>
+                        <h3>Beanpole</h3>
                         <ul class="list">
                             <li><span>TYPE</span>웹사이트 (기업체 홈페이지)</li>
                             <li><span>PAGE</span>index</li>
