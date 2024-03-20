@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/aside.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    
 
 <!-- 제이쿼리 -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
@@ -95,28 +95,28 @@
             //about
             $("header ul li:nth-child(1)").click(
                 function(){
-                    $("html,body").animate({scrollTop:$(window).height()},1000);
+                    $("html,body").animate({scrollTop:$("#about").offset().top},1000);
                     return false;
                 }
             );
             //skill
             $("header ul li:nth-child(2)").click(
                 function(){
-                    $("html,body").animate({scrollTop:$(window).height()*2},1000);
+                    $("html,body").animate({scrollTop:$("#skill").offset().top},1000);
                     return false;
                 }
             );
             //portfolio
             $("header ul li:nth-child(3)").click(
                 function(){
-                    $("html,body").animate({scrollTop:$(window).height()*3},1000);
+                    $("html,body").animate({scrollTop:$("#portfolio").offset().top},1000);
                     return false;
                 }
             );
             //contact
             $("header ul li:nth-child(4)").click(
                 function(){
-                    $("html,body").animate({scrollTop:$(window).height()*4},1000);
+                    $("html,body").animate({scrollTop:$("#contact").offset().top},1000);
                     return false;
                 }
             );
@@ -248,13 +248,15 @@
             AOS.init();
         });
     </script>
+
+<!-- 모바일햄버거버튼 -->
     <script>
         $(document).ready(function(){
             //햄버거버튼 클릭하면 실행하시오
             $("a.ham").click(function(){
-                //w대메뉴에 클래스를 붙이시오(wgnbSohw)
+                //대메뉴에 클래스를 붙이시오(gnbSohw)
                 $("header .wrap ul").toggleClass("gnbShow")
-                //close를 지우기
+                //X표시 클래스를 붙이시오(close)
                 $(".ham").toggleClass("close");
                 //x표시용으로 쓸 태그를 추가하시오
                 $(".gnbShow li").click(function(){
@@ -267,7 +269,7 @@
             
         });
     </script>
-
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 
@@ -300,6 +302,11 @@
         <section id="about" class="flex column center paddingT50 paddingB50 vh100 box">
             <div class="wrap">
                 <h2 class="h2" data-aos="fade-left" data-aos-duration="1000">ABOUT</h2>
+                <ul>
+                    <li>이름 : <span>최지수</span></li>
+                    <li>나이 : <span>만 25세</span></li>
+                    <li>교육 : <span>모란 이젠 it 아카데미 웹퍼블리셔, 웹디자인 5개월 과정 수료</span></li>
+                </ul>
                 <p>" 안녕하세요 <span>예비 웹퍼블리셔 최지수</span>입니다.<br>
                     <span>시각적 접점</span>과 <span>사용자 경험</span>으로 웹페이지를 만드는<br>
                     퍼블리싱의 매력을 느껴 새롭게 도전하게 되었습니다.<br>
@@ -307,11 +314,6 @@
                     <span>새로운 기술</span>과 <span>트렌드</span>에 많은 관심을 가지고 있습니다.<br>
                     웹퍼블리셔로서 성장할 수 기회를 주신다면<br>
                     함께 성장 하고 싶은 <span>웹퍼블리셔 최지수</span>가 되겠습니다 "</p>
-                <ul>
-                    <li>이름 : <span>최지수</span></li>
-                    <li>나이 : <span>만 25세</span></li>
-                    <li>교육 : <span>모란 이젠 it 아카데미 웹퍼블리셔, 웹디자인 5개월 과정 수료</span></li>
-                </ul>
                 <img src="img/about/about2.jpg" alt="내사진">
             </div>
         </section>
@@ -322,7 +324,7 @@
                 <div class="left">
                     <ul>
                         <li>
-                            <h3 class="h4">design</h3>
+                            <h3 class="h4">Design</h3>
                             <p>그래픽 디자인 분야의 직종을 희망하여 독학으로 <span>포토샵</span> 자격증을 취득했으며,<br>
                                 <span>일러스트</span>의 기초 작업을 할 수 있고, 벤치마킹을 통해 웹 디자인 공부를 하고있습니다.
                             </p>
@@ -330,7 +332,7 @@
                             <img src="img/skill/ai.png" alt="일러스트 이미지">
                         </li>
                         <li>
-                            <h3 class="h4">publishing</h3>
+                            <h3 class="h4">Publishing</h3>
                             <p>퍼블리싱 과정을 공부하면서 <span>HTML5, Css3, JQuary, Java script</span>를 배웠으며,<br>
                                 시멘틱 태그를 비롯한 웹 표준, 웹 접근성, 웹 반응형의 작업을 할 수 있습니다.</p>
                             <img src="img/skill/html.png" alt="html 이미지">
@@ -339,7 +341,7 @@
                             <img src="img/skill/js.png" alt="자바스크립트 이미지">
                         </li>
                         <li>
-                            <h3 class="h4">etc</h3>
+                            <h3 class="h4">Etc</h3>
                             <p><span>깃허브와 비주얼 스튜디오 코드</span>를 사용할 수 있으며,<br>
                                 <span>SASS, 젠코딩</span>을 통한 HTML 구조를 만들기가 가능합니다</p>
                             <img src="img/skill/github.png" alt="깃허브 이미지">
